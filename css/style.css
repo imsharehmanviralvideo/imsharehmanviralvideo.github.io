@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Medium.ttf);
+
+}
+body{
+    justify-content: center;
+    /* background-color: black; */
+    background-color: rgba(224, 18, 149);
+    margin: 0;
+    font-family: 'Roboto';
+}
+.contenedor{
+    background-color: rgba(16,16,17,255);
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+/* DATOS PERSONALES */
+.datos_personales{
+
+    background-color: rgba(31,31,30,255);
+    color:white;
+    padding: 15px 15px 0px 15px;
+    margin: 50px 7.5px 15px 15px;
+    border-radius: 17px;
+    height: 100%;
+    
+}
+.foto{
+    
+    width: 195px;
+    display: block;
+    margin: auto;
+    border-radius: 7px;
+    padding-top: 18px;
+}
+.datos_personales__h1{
+
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+
+}
+.datos_personales__p{
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+
+}
+.datos_personales__ul{
+
+    padding: 0px;
+
+}
+.datos_personales__li{
+    padding: 15px 18px ;
+    display: flex;
+}
+.contenedor__div{
+    margin-left: 25px;
+}
+.titulo_datos{
+    font-size: 15px;
+    color: rgba(176, 170, 174);
+    margin: 0px;
+}
+.datos_personales__a{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0px;
+    color: white;
+}
+.contenido_datos{
+
+    font-size: 14px;
+    margin: 0px;
+}
+.iconos_datos_personales{
+  
+    font-size: 25px;
+    margin-top: auto;
+    color: rgba(224, 18, 149);
+}
+/* ACERCA DE */
+.acerca_de{
+    background-color: rgba(31,31,30,255);
+    /* background-color: blue; */
+    color:white;
+    padding: 11px 35px;
+    margin: 50px 15px 50px 7.5px;
+    width: 50%;
+    border-radius: 17px;
+}
+.acerca_de__descripcion{
+    font-size: 17px;
+    text-align: justify;
+}
+
+.acerca_de__h3{
+    font-size: 25px;
+    padding-left: 25px;
+    margin: 0px;
+}
+.acerca_de__h2{
+
+    margin: 0px;
+    font-size: 30px;
+    padding-left: 25px;
+}
+.acerca_de__li{
+    display: flex;
+}
+.iconos_acerca_de{
+  
+    font-size: 30px;
+    color: rgba(224, 18, 149);
+}
+
+.info_uni{
+
+    padding-left: 60px;
+}
+.info_carrera{
+    padding-left: 60px;
+    color: rgb(238, 255, 0);
+
+}
+.acerca_de__ul{
+
+    padding: 0px;
+}
+
+/* SEPARADOR */
+
+.separador{
+
+    border: none;
+    height: 4px;
+    background-color: rgba(224, 18, 149);
+}
+
+/* Semestres */
+.contenedor_semestres{
+    display: flex;
+
+}
+.primer_semestre{
+    border: 1px solid white;
+    width: 50%;
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding: 13px 13px 0px;
+}
+
+.segundo_semestre{
+    border: 1px solid white;
+    width: 50%;
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding: 13px 13px 0px;
+}
+.contenedor_semestres__p{
+
+    margin: 0px;
+    text-align: center;
+
+}
+
+.contenedor_semestres__li{
+
+    padding-top: 10px;
+}
+
+.acerca_de__a{
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    padding-left: 58px;
+    margin-top: 10px;
+    color: white;
+    transition: transform 0.3s ease;
+
+}
+.acerca_de__a:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    margin-top: 10px;
+    color: rgba(196, 72, 151);
+}
+
+@media (max-width: 850px) {
+  
+    .contenedor{
+        background-color: rgba(16,16,17,255);
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        
+    }
+    .datos_personales{
+
+        background-color: rgba(31,31,30,255);
+        color:white;
+        width: 80%;
+        padding: 15px 15px 0px 15px;
+        margin: auto;
+        border-radius: 17px;
+        height: 100%;
+        
+    }
+    .acerca_de{
+        background-color: rgba(31,31,30,255);
+        color:white;
+        padding: 11px 35px;
+        margin: auto;
+        margin-top: 20px;
+        width: 75%;
+        border-radius: 17px;
+    }
+    .contenedor_semestres{
+        display: flex;
+        flex-direction: column;
+    }
+    .primer_semestre{
+        border: 1px solid white;
+        width: 85%;
+        margin: 0px 10px;
+        border-radius: 10px;
+        padding: 13px 13px 0px;
+    }
+    
+    .segundo_semestre{
+        border: 1px solid white;
+        width: 85%;
+        margin: 15px 10px;
+        border-radius: 10px;
+        padding: 13px 13px 0px;
+    }
+    .datos_personales__div{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
